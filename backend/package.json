@@ -8,7 +8,9 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "heroku-prebuild": "node scripts/postgres-env.js"
+    "heroku-prebuild": "node scripts/postgres-env.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {},
   "dependencies": {
@@ -19,18 +21,19 @@
     "pg": "7.4.3",
     "rimraf": "^3.0.1",
     "sqlite3": "latest",
-    "strapi": "3.0.0-beta.20",
-    "strapi-admin": "3.0.0-beta.20",
-    "strapi-connector-bookshelf": "3.0.0-beta.20",
-    "strapi-plugin-content-manager": "3.0.0-beta.20",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.20",
-    "strapi-plugin-email": "3.0.0-beta.20",
-    "strapi-plugin-graphql": "3.0.0-beta.20",
-    "strapi-plugin-upload": "3.0.0-beta.20",
-    "strapi-plugin-users-permissions": "3.0.0-beta.20",
-    "strapi-provider-upload-cloudinary": "3.0.0-beta.20",
-    "strapi-utils": "3.0.0-beta.20",
-    "unzip-stream": "^0.3.0"
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.0",
+    "strapi-connector-bookshelf": "3.2.0",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-email": "3.2.0",
+    "strapi-plugin-graphql": "3.2.0",
+    "strapi-plugin-upload": "3.2.1",
+    "strapi-plugin-users-permissions": "3.2.0",
+    "strapi-provider-upload-cloudinary": "3.0.0",
+    "strapi-utils": "3.2.0",
+    "unzip-stream": "^0.3.0",
+    "snyk": "^1.424.0"
   },
   "author": {
     "name": "A Strapi developer"
@@ -42,5 +45,6 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
