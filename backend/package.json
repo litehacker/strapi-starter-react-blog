@@ -30,7 +30,7 @@
     "strapi-plugin-graphql": "3.2.0",
     "strapi-plugin-upload": "3.2.1",
     "strapi-plugin-users-permissions": "3.2.0",
-    "strapi-provider-upload-cloudinary": "3.0.0",
+    "strapi-provider-upload-cloudinary": "3.3.3",
     "strapi-utils": "3.2.0",
     "unzip-stream": "^0.3.0",
     "snyk": "^1.424.0"
