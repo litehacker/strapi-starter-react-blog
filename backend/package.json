@@ -21,7 +21,7 @@
     "pg": "7.4.3",
     "rimraf": "^3.0.1",
     "sqlite3": "latest",
-    "strapi": "3.2.5",
+    "strapi": "3.5.1",
     "strapi-admin": "3.2.0",
     "strapi-connector-bookshelf": "3.2.0",
     "strapi-plugin-content-manager": "3.2.5",
@@ -33,7 +33,7 @@
     "strapi-provider-upload-cloudinary": "3.0.0",
     "strapi-utils": "3.2.0",
     "unzip-stream": "^0.3.0",
-    "snyk": "^1.424.0"
+    "snyk": "^1.465.0"
   },
   "author": {
     "name": "A Strapi developer"
